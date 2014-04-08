@@ -27,6 +27,7 @@ end
 
 group :test do
 	gem 'rspec', "2.13.0"
+	gem 'webrat'
 end
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby

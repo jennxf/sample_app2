@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>RoR Sample App 2 | <%= @title %></title>
+		<title><%= title %></title>
 		<%= csrf_meta_tag %>
 	</head>
 	<body>
 	<%= yield %>
 	</body>
 </html>
+
+<!-- the embedded ruby on line 4 "title" is refering to the title helper in application_helper -->
